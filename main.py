@@ -1,7 +1,7 @@
 import genetic
 import GUI
 
-def f(x1:int, x2:int) -> int:
+def f(x1:float, x2:float) -> float:
     return 2*pow(x1,3) + 4*x1*pow(x2,3) - 10*x1*x2 + pow(x2,2)
 
 if __name__ == '__main__':
